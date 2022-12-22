@@ -1,0 +1,49 @@
+.main-block-for-cards{
+    margin: 20px 40px 20px 40px;
+    text-align: center;
+
+}
+
+.main-block-for-cards h1{
+    margin-bottom: 20px;
+}
+
+.cooperation-cards {
+    /* height:100%;
+    width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 190px);
+}
+
+.card {
+    border-radius: 5px;
+    padding: 3px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 5px;
+    background: rgb(255, 255, 255);;
+    
+}
+
+.first {
+    grid-column: span 2;
+}
+
+.second {
+    grid-row: span 2;
+}
+
+.fourth {
+    grid-row: span 2;
+}
+
+.seventh {
+    grid-column: span 3;
+}
+
+.card:hover {
+    background: orange;
+    transition: 1s;
+}
