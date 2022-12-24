@@ -1,0 +1,152 @@
+@media screen and (max-width: 864px) {
+    .cooperation-cards{
+        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 190px);
+    }
+
+    .card {
+        order: 0;
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .seventh {
+        grid-column: span 2;
+    }
+}
+
+@media screen and (max-width: 813px) {
+
+    footer{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 20px;
+    }
+
+    .contacts-images {
+        grid-template-columns: 20px 85%;
+    }        
+}
+
+@media (max-width: 768px) {
+    .navigation {
+        height: 65px;
+        opacity: 0.95;
+        padding: 0;
+        position: relative;
+        z-index: 2;
+    }
+    .hamburger-lines, .hamburger-lines .line{
+        opacity: 1 !important;
+    }
+
+    .checkbox{
+        display: block !important;
+    }
+    
+    #main-nav {
+        display: block;
+        height: 64px;
+    }
+    
+    .container{
+        visibility: hidden;
+        z-index: 2;
+        right: -170px;
+        position: absolute;
+        height: 100vh;
+        max-width: 170px;
+        
+    }
+    .menu-items  {
+        width: 150px;
+        position: fixed;
+        padding: 70px 10px 0px 10px;
+        background: #C9271F;
+        display: flex;
+        flex-direction: column;
+        transform: translateX(0);
+    }
+  
+    .logo {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }  
+    .menu-item{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .cart-card h3 {
+        font-size: 16px;
+    }
+
+    .cart-card{
+        padding: 10px;
+    }
+
+    .dont-know-what-to-choose{
+        grid-template-columns: auto;
+        justify-items: center;
+        align-items: center;
+    }
+    .call-us{
+        justify-items: center;
+        margin: 0;
+        text-align: center;
+    }
+
+    .submit{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .for-catalog-start{
+        grid-template-columns: 1fr 90px;
+        grid-template-rows: auto 1fr;
+    }
+
+    .all-scooter-items{
+        order: 1;
+        grid-column: span 2;
+    }
+
+    .cart-image-href{
+        order: 0;
+    }
+
+    .cooperation-cards{
+        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 190px);
+    }
+
+    .card {
+        order: 0;
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .adres-of-ofices{
+        grid-template-columns: auto;
+    }
+
+}
+
+@media screen and (max-width: 522px) {
+    
+    footer{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        row-gap: 10px;
+    }
+
+    .take-review {
+        background:no-repeat center/100% url(noutbuk_stol_rabochee_mesto_211869_360x640.jpg);
+        grid-template-columns: auto;
+    }
+}
